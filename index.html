@@ -5,71 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dominik Kmiecik Fotografia</title>
-
-    <!-- Reszta linków i skryptów -->
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <img src="imgs/logo.png" alt="Logo">
+            </div>
             <ul>
                 <li><a href="#home">Strona główna</a></li>
-                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#clients">Klienci</a></li>
                 <li><a href="#pricing">Cennik</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
-
     <div class="container">
-        <div class="home" id="home">
-            <h1>Dominik Kmiecik Fotografia</h1>
-            <p>Uchwycenie najważniejszych momentów życia</p>
+        <div class="banner" id="home">
+            <img src="imgs/wedding-1.jpeg" alt="Zdjęcie ślubne">
+            <p>Profesjonalna fotografia ślubna i portretowa</p>
         </div>
-
-        <div class="gallery" id="gallery">
-            <div class="album">
-                <div class="albumTitle hideText">
-                    <h2>Wspólnie na zawsze</h2>
-                    <p>Portret</p>
-                </div>
-                <img src="imgs/wedding-1.jpeg" alt="">
-            </div>
-
-            <!-- Reszta albumów -->
-
-        </div>
-
         <div class="title">
-            <h1>Nieocenione chwile Twojego życia</h1>
-            <p>W mojej ofercie znajdziesz różnorodne sesje zdjęciowe, które doskonale oddają emocje i atmosferę wyjątkowych okazji. Dbam o każdy szczegół, aby dostarczyć Ci niezapomniane wspomnienia w postaci zdjęć.</p>
+            <h1>Bezcenne chwile Twojego życia</h1>
+            <p>Wśród dostępnych wariantów zdjęć znajdują się różne style i techniki, ale większość z nich charakteryzuje się wyjątkową jakością i niepowtarzalnym charakterem. Jeśli szukasz fotografa, który uwieczni Twoje najważniejsze chwile, dobrze trafiłeś.</p>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <img src="imgs/wedding-2.jpeg" alt="Zdjęcie ślubne">
+            <img src="imgs/wedding-3.jpeg" alt="Zdjęcie ślubne">
+            <img src="imgs/wedding-4.jpeg" alt="Zdjęcie ślubne">
+            <img src="imgs/wedding-5.jpeg" alt="Zdjęcie ślubne">
+            <img src="imgs/wedding-6.jpeg" alt="Zdjęcie ślubne">
+            <img src="imgs/wedding-7.jpeg" alt="Zdjęcie ślubne">
+        </div>
+        <div class="title">
+            <h1>Bezcenne chwile Twojego życia</h1>
+            <p>Wśród dostępnych wariantów zdjęć znajdują się różne style i techniki, ale większość z nich charakteryzuje się wyjątkową jakością i niepowtarzalnym charakterem. Jeśli szukasz fotografa, który uwieczni Twoje najważniejsze chwile, dobrze trafiłeś.</p>
         </div>
 
         <div class="blog" id="blog">
-            <img src="imgs/wedding-16.jpeg" alt="">
-            <p>Jestem fotografem z pasją do uwieczniania niezwykłych chwil i wyjątkowych historii. Moją misją jest dostarczenie wysokiej jakości zdjęć, które będą zachwycać przez długie lata. Niezależnie od tego, czy potrzebujesz fotografa na ślub, sesję narzeczeńską czy inną okazję, z przyjemnością podejmę się tego wyzwania.</p>
-        </div>
-
-        <div class="parallaxOne"></div>
-
-        <div class="testimonials" id="clients">
-            <div class="title">
-                <h1>Opinie klientów</h1>
-                <p>Przeczytaj, co moi klienci mają do powiedzenia na temat mojej pracy i doświadczenia współpracy ze mną.</p>
+            <div class="blogPost">
+                <img src="imgs/blog-1.jpeg" alt="Zdjęcie z bloga">
+                <div class="blogInfo">
+                    <h4>Najważniejsze chwile ślubu</h4>
+                    <p>Ślub to wyjątkowy moment w życiu każdej pary. Na blogu przedstawiamy najważniejsze chwile, które warto uwiecznić na zdjęciach, aby wspomnienia pozostały na zawsze.</p>
+                    <button class="readMore">Czytaj więcej</button>
+                </div>
             </div>
 
-            <!-- Testimonial section -->
+            <div class="blogPost">
+                <img src="imgs/blog-2.jpeg" alt="Zdjęcie z bloga">
+                <div class="blogInfo">
+                    <h4>Porady dla nowożeńców</h4>
+                    <p>Przygotowania do ślubu mogą być stresujące, ale my chcemy pomóc Wam w tym wyjątkowym czasie. Na naszym blogu znajdziecie praktyczne porady dla przyszłych małżonków.</p>
+                    <button class="readMore">Czytaj więcej</button>
+                </div>
+            </div>
+        </div>
+        <div class="testimonialSection" id="testimonials">
+            <div class="testimonial">
+                <q>Pracowanie z Dominikiem było niesamowitym doświadczeniem. Jego profesjonalizm i talent fotograficzny sprawiły, że nasz ślub był niezapomniany. Zdecydowanie polecam!</q>
+                <div class="divider">&ldquo;<span></span></div>
+                <div class="client">
+                    <div class="clientImg">
+                        <img src="imgs/profile-1.jpeg" alt="">
+                    </div>
 
+                    <div class="clientInfo">
+                        <h4>Fiona Zaveri</h4>
+                        <em>Modelka/Przedstawicielka</em>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <q>Świetna współpraca, wyjątkowe zdjęcia! Dominik wykazał się ogromnym zaangażowaniem i profesjonalizmem. Serdecznie polecam!</q>
+                <div class="divider">&ldquo;<span></span></div>
+                <div class="client">
+                    <div class="clientImg">
+                        <img src="imgs/profile-2.jpeg" alt="">
+                    </div>
+
+                    <div class="clientInfo">
+                        <h4>Lauren James</h4>
+                        <em>Instruktor</em>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <q>Dzięki współpracy z Dominikiem udało nam się uzyskać zdjęcia, które przekroczyły nasze oczekiwania. Jego umiejętności i kreatywność są naprawdę imponujące. Gorąco polecam!</q>
+                <div class="divider">&ldquo;<span></span></div>
+                <div class="client">
+                    <div class="clientImg">
+                        <img src="imgs/profile-3.jpeg" alt="">
+                    </div>
+
+                    <div class="clientInfo">
+                        <h4>Victor Andre</h4>
+                        <em>Programista</em>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="parallaxTwo"></div>
 
         <div class="title">
-            <h1>Nieocenione chwile Twojego życia</h1>
-<p>W mojej ofercie znajdziesz różnorodne sesje zdjęciowe, które doskonale oddają emocje i atmosferę wyjątkowych okazji. Dbam o każdy szczegół, aby dostarczyć Ci niezapomniane wspomnienia w postaci zdjęć.</p>
-</div>
-<div class="packages" id="pricing">
+            <h1>Bezcenne chwile Twojego życia</h1>
+            <p>Na naszej stronie znajdziesz wiele różnych zdjęć, ale większość z nich charakteryzuje się wyjątkową jakością i niepowtarzalnym charakterem. Jeśli szukasz fotografa, który uwieczni Twoje najważniejsze chwile, dobrze trafiłeś.</p>
+        </div>
+    </div>
+
+    <div class="packages" id="pricing">
         <div class="packageImg">
             <img src="imgs/small-1.jpeg" alt="">
             <img src="imgs/small-2.jpeg" alt="">
@@ -81,13 +132,13 @@
             <div class="packageOne">
                 <h3>Sesja zaręczynowa</h3>
                 <ul>
-                    <li>Sesja portretowa na wybranej lokalizacji</li>
-                    <li>Zdjęcia w codziennych ubraniach</li>
-                    <li>50 wysokiej jakości artystycznie edytowanych zdjęć cyfrowych</li>
+                    <li>Sesja portretowa w plenerze</li>
+                    <li>Stylizacja codzienna</li>
+                    <li>50 wysokiej rozdzielczości artystycznie edytowanych zdjęć cyfrowych</li>
                     <li>Licencja na nieograniczone użytkowanie prywatne</li>
-                    <li>Bon na wydruki o wartości 200 zł</li>
+                    <li>Kredyt na wydruki o wartości 200 zł</li>
                 </ul>
-                <p>Sesje w weekend +600 zł</p>
+                <p>Sesje weekendowe +600 zł</p>
 
                 <button class="readMore">Czytaj więcej</button>
 
@@ -96,94 +147,92 @@
             <div class="packageTwo">
                     <h3>Pakiet ślubny</h3>
                     <ul>
-                        <li>Sesja portretowa na wybranej lokalizacji</li>
-                        <li>Rekomendacje dotyczące stylizacji</li>
-                        <li>200 wysokiej jakości artystycznie edytowanych zdjęć cyfrowych</li>
-                        <li>Online galeria ze zdjęciami</li>
+                        <li>Sesja portretowa w plenerze</li>
+                        <li>Rekomendacje stylizacji</li>
+                        <li>200 wysokiej rozdzielczości artystycznie edytowanych zdjęć cyfrowych</li>
+                        <li>Galeria zdjęć online</li>
                         <li>Wolne od tantiem zdjęcia na USB</li>
                     </ul>
-                    <p>Sesje w weekend +600 zł</p>
+                    <p>Sesje weekendowe +600 zł</p>
                     <button class="readMore">Czytaj więcej</button>
 
             </div>
 
             <div class="packageThree">
-                    <h3>Szybka sesja</h3>
+                    <h3>Szybka i krótka sesja</h3>
                     <ul>
-                        <li>Coverage of Morning Sessions</li>
-                        <li>Rekomendacje dotyczące stylizacji</li>
-                        <li>Meals Sitdown celebrations in Digital Images</li>
+                        <li>Relacja z porannych sesji</li>
+                        <li>Rekomendacje stylizacji</li>
+                        <li>Posiłki, uroczystości w formie cyfrowych zdjęć</li>
                         <li>Licencja na nieograniczone użytkowanie prywatne</li>
-                        <li>Bon na wydruki o wartości 200 zł</li>
+                        <li>Kredyt na wydruki o wartości 200 zł</li>
                     </ul>
-                    <p>Sesje w weekend +200 zł</p>
+                    <p>Sesje weekendowe +200 zł</p>
                     <button class="readMore">Czytaj więcej</button>
-
             </div>
         </div>
         
         <div class="priceTable">
             <table>
                 <tr>
-                    <th>Wydruki na prezent</th>
+                    <th>Wyjątkowe wydruki</th>
                     <th>Wydruki na ścianę</th>
-                    <th>Wydruki galerii</th>
+                    <th>Oprawione w galerii</th>
                 </tr>
                 <tr class="blank_row">
                         <td bgcolor="#FFFFFF" colspan="3">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>5 x 6 = <span class="price">
-40 zł</span></td>
-<td>4 x 6 = <span class="price">40 zł</span></td>
-<td>6 x 7 = <span class="price">40 zł</span></td>
-                </tr>
-                
-                <tr>
-                    <td>6 x 7 = <span class="price">40 zł</span></td>
-                    <td>5 x 3 = <span class="price">40 zł</span></td>
-                    <td>7 x 8 = <span class="price">40 zł</span></td>
+                    <td>5 x 6 = <span class="price">10 zł</span></td>
+                    <td>4 x 6 = <span class="price">10 zł</span></td>
+                    <td>6 x 7 = <span class="price">10 zł</span></td>
                     
                 </tr>
                 
                 <tr>
-                    <td>7 x 8 = <span class="price">60 zł</span></td>
-                    <td>3 x 7 = <span class="price">60 zł</span></td>
-                    <td>8 x 9 = <span class="price">60 zł</span></td>
+                    <td>6 x 7 = <span class="price">10 zł</span></td>
+                    <td>5 x 3 = <span class="price">10 zł</span></td>
+                    <td>7 x 8 = <span class="price">10 zł</span></td>
                     
                 </tr>
                 
                 <tr>
-                    <td>8 x 9 = <span class="price">100 zł</span></td>
-                    <td>8 x 10 = <span class="price">100 zł</span></td>
-                    <td>9 x 10 = <span class="price">100 zł</span></td>
+                    <td>7 x 8 = <span class="price">15 zł</span></td>
+                    <td>3 x 7 = <span class="price">15 zł</span></td>
+                    <td>8 x 9 = <span class="price">15 zł</span></td>
                     
                 </tr>
                 
                 <tr>
-                    <td>9 x 10 = <span class="price">160 zł</span></td>
-                    <td>8 x 12 = <span class="price">160 zł</span></td>
-                    <td>10 x 12 = <span class="price">160 zł</span></td>
+                    <td>8 x 9 = <span class="price">25 zł</span></td>
+                    <td>8 x 10 = <span class="price">25 zł</span></td>
+                    <td>9 x 10 = <span class="price">25 zł</span></td>
                     
                 </tr>
                 
                 <tr>
-                    <td>10 x 11 = <span class="price">240 zł</span></td>
-                    <td>11 x 14 = <span class="price">240 zł</span></td>
-                    <td>11 x 13 = <span class="price">240 zł</span></td>
+                    <td>9 x 10 = <span class="price">40 zł</span></td>
+                    <td>8 x 12 = <span class="price">40 zł</span></td>
+                    <td>10 x 12 = <span class="price">40 zł</span></td>
+                    
+                </tr>
+                <tr>
+                    <td>10 x 11 = <span class="price">60 zł</span></td>
+                    <td>11 x 14 = <span class="price">60 zł</span></td>
+                    <td>11 x 13 = <span class="price">60 zł</span></td>
                     
                 </tr>
                 
                 <tr>
-                    <td>11 x 12 = <span class="price">320 zł</span></td>
-                    <td>10 x 10 = <span class="price">340 zł</span></td>
-                    <td>12 x 14 = <span class="price">340 zł</span></td>
+                    <td>11 x 12 = <span class="price">80 zł</span></td>
+                    <td>10 x 10 = <span class="price">85 zł</span></td>
+                    <td>12 x 14 = <span class="price">85 zł</span></td>
                 </tr>
                 
                 <tr>
-                    <td>12 x 13 = <span class="price">500 zł</span></td>
-                    <td>16 x 20 = <span class="price">500 zł</span></td>
-                    <td>13 x 15 = <span class="price">500 zł</span></td>
+                    <td>12 x 13 = <span class="price">125 zł</span></td>
+                    <td>16 x 20 = <span class="price">125 zł</span></td>
+                    <td>13 x 15 = <span class="price">125 zł</span></td>
                 </tr>
 
                 <tr class="blank_row">
@@ -192,7 +241,7 @@
 
             </table>
             <p>
-                * Uwaga - wymiary podane są w calach.
+                * Uwaga - Wymiary podane są w calach.
             </p>
         </div>
 
@@ -203,6 +252,12 @@
 
 
 </div> <!--container-->
+
+    
+
+<footer>
+    <p>Replikacja przez Tiffany Arellano 2018 <br /> Inspirowane oryginalnym motywem:  <a href="https://vivagh.dttheme.com/home/#" target="_blank">Vivagh</a></p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
-```
